@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--UTF-8 can represent any character in the Unicode standard-->
+    <!--unicode transfer format-->
+    <title>Doc my contact</title>
+</head>
+<body>
+    <p><strong><h3><em>Contact details</em></h3></strong></p>
+    <ul>
+        <li>phone no:</li>
+        <li>email</li>
+        <li>insta</li>
+    </ul>
+    <!--how to insert the border lines?
+    difference between cellspacing and cellpadding?-->
+    <table cellspacing="5"  cellpadding="5">
+        <thead>
+            <th>
+                <tr>
+                    <td>class</td>
+                <td>place</td>
+                <td>moj</td>
+                </tr>
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1-5</td>
+                <td>Celestial high school</td>
+                <td>😇</td>
+            </tr>
+            <tr>
+                <td>6-7</td>
+                <td>Chaitanya school,SDPT</td>
+                <td>😊</td>
+            </tr>
+            <tr>
+                <td>8-10</td>
+                <td>Chaitanya school,KNR</td>
+                <td>🥲</td>
+            </tr>
+            <tr>
+                <td>11-12</td>
+                <td>Chaitanya school,HYBD</td>
+                <td>😔</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="mailto:nikhithaannaram4@gmail.com" method="post" enctype="text/plain">
+        <!--enctype="text/plain" when this shows in the mail there wont be any unneccesary symbols -->
+        <!--check that mail-->
+        <!--post means smtg theta u need to transfer-->
+        <!--form format has class? action? method?-->
+        <!--<form action="" method="get" class="form-example">-->
+        <!--y does for appear in label, what is that used for?-->
+        <label for="color:">Enter the fav color:</label>
+        <input type="color" name="Color chosen"><br>
+        <!--name="Color chosen" when this shows in the mail it will be wriien as Color chosen=black-->
+        <label for="password">Enter your code:</label>
+        <input type="password"><br>
+        <label for="email">Enter the email:</label>
+        <input type="mail"><br>
+        <label for="text">Hints:</label><br>
+        <textarea name="" id="" cols="10" rows="10"></textarea>
+        <!--<input type="email" name="email" id="email" required>-->
+        <!--what does the id represent here?-->
+        <input type="submit"><br>
+    </form>
+
+</body>
+</html>
